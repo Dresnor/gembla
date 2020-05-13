@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Catamaran', sans-serif;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+.header {
+	background-color: #c5dbe6;
+	padding: 16px;
+	color:#000;
+	font-size: 24px;
+	border-bottom: 2px solid red;
+}
+
+.highScore {
+	flex:44%;
+	padding-top: 55px;
+	padding-left: 90px;
+}
+
+.flexDiv {
+	display: flex;
+}
+
+.bankImage {
+	height:80px;
+	margin: 2px auto 0px auto;
+	background-image: url('gemblaImages/bank.jpg');
+	text-align: center;
+	background-size: cover;
+	border: 1px solid black;
+	flex:12%;
+}
+
+.rate {
+	flex:44%;
+	padding-right:129px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.bank {
+	text-align: center;
+	width:12%;
+	margin:0px auto 10px auto;
+	border: 1px solid black;
+	margin-top: -58px;
+}
+
+#bankAmount {
+	font-size: 28px;
+}
+
+#reset {
+	margin-top: 4px;
+	background-color: red;
+	color: white;
+	padding: 3px 4px;
+}
+
+.main {
+	display:flex;
+	margin-top:35px;
+}
+
+#takeAll, #takeHalf {
+	background-color: white;
+}
+
+#playButton:hover {
+	background-color: white;
+} 
+
+#high:hover, #low:hover {
+	background-color: blue;
+	color:black;
+	font-weight: bold;
+} 
+
+#takeHalf:hover {
+	background-color: green !important;
+}
+
+#takeAll:hover {
+	background-color: red !important;
+}
+
+#message {
+	padding:50px 50px 30px 50px;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+}
+
+.board {
+	/*background-image: url("gemblaImages/board.jpg");*/
+	background-size: cover;
+	margin: 40px 40px;
+	height:250px;
+}
+
+.text {
+	margin:50px auto;
+	flex: 30%;
+}
+
+.buttons {
+	flex:30%;
+	padding: 10% 0%;
+}
+
+.rightButtonsWrapper {
+	padding: 10px 30px;
+	flex:30%;
+}
+
+#high, #low, #takeHalf, #takeAll, #playButton {
+	margin: 20px 30%;
+	width:40%;
+	border-radius: 3px;
+	padding:10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#playButton {
+	background-color: yellow;
+}
+
+.table {
+	background-color:#03604b;
+	border: 1px solid red;
+	border-radius: 50%;
+	flex:40%;
+	height:500px;
+	width: 500px;
+}
+
+.tableCash {
+	text-align: center;
+	margin: 16px auto 15px auto;
+	font-size: 26px;
+	width:100px;
+	padding:6px;
+	min-width: 180px;
+}
+
+.cashImage {
+	height:73px;
+	text-align: center;
+	font-size: 26px;
+	color: white;
+	width:100%;
+	margin:6px auto;
+	background-image: url('gemblaImages/dollar.jpg');
+	background-size: cover;
+}
+
+.cards {
+	text-align: center;
+	margin:35px 58px;
+	font-size: 26px;
+	max-width:450px;
+	padding:3px;
+	background-color:#03604b;
+}
+
+.footer {
+	margin-top:20px;
+	text-align: center;
+	background-color: gray;
+	padding: 6px;
+	color:black;
+
+}

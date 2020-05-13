@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gembla</title>
+
+<meta charset="utf-8">
+<meta name=“viewport” content=“width=device-width, initial- scale=1.0”>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<audio id="myAudio">
+  <source src="winSound.mp3" type="audio/mpeg">
+  <source src="looseSound.mp3" type="audio/mpeg">
+</audio>	
+
+<header class="header">
+	<div class='flexDiv'>
+		<div class='highScore'>
+			<p>High Score: <span id='highScore'>0</span></p>
+		</div>
+		<div class='bankImage'>
+		</div>
+		<div class='rate'>
+			<p id='textRate'>Success Rate:</p>
+			<p id='rate_span'>0</p>
+			<button type='button' id='reset'>RESET RATE</button>
+		</div>	
+	</div>
+	<div class="bank">
+		<span id="bankAmount">100</span>$
+	</div>
+</header>
+<div class='main'>
+	<div class="text">
+		<div class="board"> 
+			<div id='message'>Press PLAY to start the game</div>
+		</div>
+	</div>
+	<div class='table'>
+		<div class='tableCash'>
+			<div id='cash'>
+			<span id="tableAmount">0</span>$
+			</div>
+			<div class="cashImage">
+			</div>
+		</div>
+		<div id ='cards' class='cards'>
+			<img src="gemblaImages/reverseCard.jpg">	
+		</div>
+	</div>
+	<div class="rightButtonsWrapper">
+		<div class='buttons'>
+			<button type='button' id='playButton'>PLAY!</button>
+			<button type='button' id='high'>HIGH</button>
+			<button type='button' id='low'>LOW</button>
+			<button type='button' id='takeHalf'>TAKE HALF</button>
+			<button type='button' id='takeAll'>TAKE ALL</button>
+		</div>
+	</div>
+
+</div>
+
+<div class='footer'>
+	<p>MyFirstJSProgram</p>
+</div>
+
+<script type="text/javascript" src='main.js'></script>
+</body>
+</html>
